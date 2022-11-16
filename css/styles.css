@@ -360,5 +360,20 @@ body {
 }
 
 .tl_desc_info {
+    display: flex;
+    flex-direction: column;
+}
 
+.bullet {
+    display: flex;
+    margin: 0.5em 0px;
+}
+
+#bullet_point {
+    margin-top: 0.8em;
+    flex: 0.03;
+}
+
+.bullet_text {
+    flex: 0.97;
 }
