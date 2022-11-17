@@ -371,7 +371,7 @@ body {
 
 #bullet_point {
     margin-top: 0.8em;
-    flex: 0.03;
+    flex: 0.02;
 }
 
 .bullet_container {
@@ -379,10 +379,50 @@ body {
 }
 
 .bullet_text {
-    flex: 0.97;
+    flex: 0.98;
 }
 
 .bullet_header {
     font-weight: 600;
     font-size: 1.25em;
+    margin-bottom: 0.75em;
+}
+
+.student_name {
+    font-weight: 500;
+}
+
+.student_desc {
+    font-style: italic;
+}
+
+.student {
+    margin-bottom: 1.5em;
+}
+
+.student_container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.75em;
+}
+
+.first_students {
+    flex-direction: column;
+    flex: 0.33;
+    display: flex;
+    align-items: center;
+}
+
+.second_students {
+    flex-direction: column;
+    flex: 0.33;
+    display: flex;
+    align-items: center;
+}
+
+.third_students {
+    flex-direction: column;
+    flex: 0.33;
+    display: flex;
+    align-items: center;
 }

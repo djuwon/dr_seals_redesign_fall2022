@@ -24,9 +24,9 @@ window.addEventListener('load', (event) => {
         navigate('service', -120);
     })
 
-    var project = document.getElementById("project_link");
+    var project = document.getElementById("student_link");
     project.addEventListener('click', () => {
-        navigate('project', -120);
+        navigate('student', -120);
     })
 
     var publication = document.getElementById("publication_link");
