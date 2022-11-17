@@ -410,19 +410,19 @@ body {
     flex-direction: column;
     flex: 0.33;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .second_students {
     flex-direction: column;
     flex: 0.33;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .third_students {
     flex-direction: column;
     flex: 0.33;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
