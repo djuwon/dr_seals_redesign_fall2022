@@ -270,7 +270,7 @@ body {
 .work_row_title {
     margin: 0 1em;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .work_row_desc {
@@ -374,6 +374,15 @@ body {
     flex: 0.03;
 }
 
+.bullet_container {
+    margin-bottom: 2em;
+}
+
 .bullet_text {
     flex: 0.97;
+}
+
+.bullet_header {
+    font-weight: 600;
+    font-size: 1.25em;
 }
